@@ -1,0 +1,156 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.hero-mid{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-text{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* width: 100%; */
+    text-align: center;
+}
+
+.hero-text h1{
+    font-size: 3rem;
+    font-weight: 800;
+    background: #fdfdfd;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero-text p{
+    font-size: 1.3rem;
+    color: #fefcfb;
+    padding: 0.5rem 0 2rem 0;
+}
+
+.hero-text .show{
+    text-decoration: none;
+    background-color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 16px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgb(21, 20, 20);
+}
+.hero-text .show:hover{
+    background-color: rgb(0, 149, 255);
+    color: #fff;
+}
+
+@media screen and (max-width:600px) {
+    .hero-text h1{
+        padding: 8px 20px;
+        font-size: 30px;
+        width: 16ch;
+    }
+    .hero-text p{
+        font-size: 1.1rem;
+        padding: 0 0 2rem 0;
+    }
+
+    .hero-text .show{
+        padding: 0.9rem 0.8rem;
+        border-radius: 16px;
+        font-size: 1rem;
+    }
+}
+
+
+/* home card input style  */
+
+.homeCard{
+    width: 80%;
+    border-radius: 1rem;
+    padding: 2rem;
+    background-color: white;
+    position: absolute;
+    gap:5rem;
+    justify-content: center;
+    box-shadow: 0 2px 8px 4px rgba(178,178, 178, 0.45 );
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+.location .distDiv .pricediv{
+    width: 100%;
+}
+
+
+
+
+#btn-2{
+    margin-top: 40px;
+    width: 10%;
+    font-weight: 600;
+    background-color: #064ef6;
+    border-radius: 30px;
+    color: white;
+} 
+#btn-2:hover{
+    background-color: #190dfb;
+}
+ .homelabel{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+input{
+    width: 100%;
+    background-color: rgb(236, 232, 232);
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 20px;
+    
+    &::placeholder{
+        font-size: 13px;
+        opacity: 5;
+        font-weight: 400;
+
+    }
+    &:focus{
+        outline-color: #1356e7;
+
+    }
+
+}
+
+
+@media screen and (max-width:600px){
+    .homeCard{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    #btn-2{
+        display: flex;
+        width: 100%;
+        padding-left: 40%;
+    }
+
+}

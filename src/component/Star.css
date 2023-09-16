@@ -1,0 +1,21 @@
+.icon-star{
+    font-size: 1.5rem;
+    color: orange;
+}
+
+/* .empty-icon{
+    font-size: 2.6rem;
+} */
+.icon-style {
+    display: flex;
+    /* position: relative; */
+    /* padding-left: 10%; */
+margin-bottom: 10px;
+}
+
+@media screen and (max-width:600px){
+    .icon-star{
+        font-size: 1.3rem;
+       
+    }   
+}

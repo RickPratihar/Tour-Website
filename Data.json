@@ -1,0 +1,77 @@
+
+{
+  "posts": [
+    {
+      "id": 1,
+      "imgSrc": "img1",
+      "destTitle": "Bora Bora",
+      "location": "New Zealand",
+      "grade": "CULTURAL RELX",
+      "fees": "$700",
+      "description": "The epitome of romance, Bora Bora is one of the best travle destination in the world. This place is known for its luxurios stays and adventurous activities."
+    },
+    {
+      "id": 2,
+      "imgSrc": "img1",
+      "destTitle": "Bora Bora",
+      "location": "New Zealand",
+      "grade": "CULTURAL RELX",
+      "fees": "$700",
+      "description": "The epitome of romance, Bora Bora is one of the best travle destination in the world. This place is known for its luxurios stays and adventurous activities."
+    },
+    {
+      "id": 3,
+      "imgSrc": "img2",
+      "destTitle": "Bora Bora",
+      "location": "New Zealand",
+      "grade": "CULTURAL RELX",
+      "fees": "$700",
+      "description": "The epitome of romance, Bora Bora is one of the best travle destination in the world. This place is known for its luxurios stays and adventurous activities."
+    },
+    {
+      "id": 4,
+      "imgSrc": "img3",
+      "destTitle": "Bora Bora",
+      "location": "New Zealand",
+      "grade": "CULTURAL RELX",
+      "fees": "$700",
+      "description": "The epitome of romance, Bora Bora is one of the best travle destination in the world. This place is known for its luxurios stays and adventurous activities."
+    },
+    {
+      "id": 5,
+      "imgSrc": "img4",
+      "destTitle": "Bora Bora",
+      "location": "New Zealand",
+      "grade": "CULTURAL RELX",
+      "fees": "$700",
+      "description": "The epitome of romance, Bora Bora is one of the best travle destination in the world. This place is known for its luxurios stays and adventurous activities."
+    },
+    {
+      "id": 6,
+      "imgSrc": "img5",
+      "destTitle": "Bora Bora",
+      "location": "New Zealand",
+      "grade": "CULTURAL RELX",
+      "fees": "$700",
+      "description": "The epitome of romance, Bora Bora is one of the best travle destination in the world. This place is known for its luxurios stays and adventurous activities."
+    },
+    {
+      "id": 7,
+      "imgSrc": "img6",
+      "destTitle": "Bora Bora",
+      "location": "New Zealand",
+      "grade": "CULTURAL RELX",
+      "fees": "$700",
+      "description": "The epitome of romance, Bora Bora is one of the best travle destination in the world. This place is known for its luxurios stays and adventurous activities."
+    },
+    {
+      "id": 8,
+      "imgSrc": "img7",
+      "destTitle": "Bora Bora",
+      "location": "New Zealand",
+      "grade": "CULTURAL RELX",
+      "fees": "$700",
+      "description": "The epitome of romance, Bora Bora is one of the best travle destination in the world. This place is known for its luxurios stays and adventurous activities."
+    }
+  ]
+}

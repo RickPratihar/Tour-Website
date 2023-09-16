@@ -1,0 +1,109 @@
+
+.imageDiv{
+    height: 200px;
+    width: 300px;
+    /* padding: 10px 10px; */
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+.main{
+ margin-top: 8%;
+ /* padding-left: 4%; */
+ background-color: rgb(237, 240, 243);
+}
+
+.main .secTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing:1px;
+    font-size: larger;
+    padding-bottom: 60px;
+    padding-top: 40px;
+   
+}
+
+.singleDestination .imageDiv img{
+    border-radius: 5px;
+   
+}
+
+.singleDestination{
+  /* box-shadow: 0 0 4px black; */
+  border: 1px solid black;
+  width: 320px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 25px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.secContent{
+   display: flex;
+   /* gap: 60px; */
+   /* justify-content: space-between; */
+   gap: 40px;
+   padding-left: 10%;
+  flex-wrap: wrap;
+}
+
+.cardInfo .name{
+   padding-left: 10px;
+}
+
+.desc p{
+    width: 29ch;
+    padding-bottom: 05px;
+    padding-top: 10px;
+}
+
+.cardInfo{
+    padding-left: 8px;
+    padding-right: 10px;
+}
+.cardInfo .price{
+    display: flex;
+    font-size: 22px;   
+}
+
+.cardInfo .icon{
+    padding-top: 2px;
+}
+
+.fees{
+    padding: 15px 0;
+    display: flex;
+    gap: 130px;
+    /* border-top: 1.5px solid black; */
+    /* border-bottom: 1.5px solid black; */
+}
+
+.cardInfo .destTitle{
+    font-size: 20px;
+    padding-bottom: 8px;
+}
+.btnflex{
+    background-color: rgb(255, 21, 0);
+    color: white;
+    border-radius:5px;
+    padding: 8px 15px;
+    margin-bottom: 10px;
+}
+.btnflex:hover{
+    background-color: #f63535;
+}
+
+@media screen and (max-width:600px) {
+    .secContent{
+       margin-left: 20px;
+       height: 100%;
+     }
+
+     .btnflex{
+       display: block;
+    }
+}

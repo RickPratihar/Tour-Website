@@ -1,4 +1,10 @@
+
+
+
 # Getting Started with Create React App
+![tourwebsite](https://github.com/RickPratihar/Tour-Website/assets/103872207/257f50b9-ed39-49c4-bde6-1fc5236432fa)
+
+<h1>preview Project : https://tour-website-rick.netlify.app/</h1>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
